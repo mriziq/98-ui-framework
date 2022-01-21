@@ -28,20 +28,23 @@ export default function Home() {
             <h2 className={"animate-flicker"}>
               Play Now
             </h2>
+            <Link href="/test">
             <button>
               Enter
             </button>
+            </Link>
+
           </div>
         </div>
 
 
       </div>
 
-      {/* <div style={{ position: "fixed", bottom: 0, width: "100%" }}>
+      <div style={{ position: "fixed", bottom: 0, width: "100%" }}>
         <footer className='title-bar' >
           <Link href="/test"><button className='button'>Test Page</button></Link>
         </footer>
-      </div> */}
+      </div>
 
     </div>
 
